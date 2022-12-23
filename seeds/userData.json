@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Mario",
+        "email" : "jumpman@gmail.com",
+        "password" : "goombaSquish!"
+    },
+    {
+        "name" : "Link",
+        "email" : "ocarinaguy@gmail.com",
+        "password" : "HeroOfTime!"
+    }, 
+    {
+        "name" : "Samus",
+        "email" : "planetzebes@gmail.com",
+        "password" : "metroidSquish!"
+    }, 
+    {
+        "name" : "Donkey Kong",
+        "email" : "diddysdaddy@gmail.com",
+        "password" : "BarrelRoller!"
+    }, 
+    {
+        "name" : "Fox McCloud",
+        "email" : "arwingace@gmail.com",
+        "password" : "DoaBarrelRoll!"
+    },
+    {
+        "name" : "Shigeru Miyamoto",
+        "email" : "creator@gmail.com",
+        "password" : "IMadeThat!"
+    }
+]

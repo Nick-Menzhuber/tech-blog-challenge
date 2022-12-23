@@ -1,0 +1,53 @@
+[
+    {
+        "text" : "Good job, Mario!",
+        "user_id" : 6,
+        "post_id" : 1
+    },
+    {
+        "text" : "Good job, Link!",
+        "user_id" : 6,
+        "post_id" : 2
+    },
+    {
+        "text" : "Good job, Samus!",
+        "user_id" : 6,
+        "post_id" : 3
+    },
+    {
+        "text" : "I'll see what I can do",
+        "user_id" : 6,
+        "post_id" : 4
+    },
+    {
+        "text" : "Remember to be kind, Fox!",
+        "user_id" : 6,
+        "post_id" : 5
+    },
+    {
+        "text" : "Don't worry about it, boss",
+        "user_id" : 5,
+        "post_id" : 6
+    },
+    {
+        "text" : "We'll tell you when you're older, lol!",
+        "user_id" : 2,
+        "post_id" : 6
+    },
+    {
+        "text" : "Beats me, my schedule was aready INSANE",
+        "user_id" : 3,
+        "post_id" : 6
+    },
+    {
+        "text" : "How are we coming on that banana?",
+        "user_id" : 4,
+        "post_id" : 6
+    },
+    {
+        "text" : "Thanks for everything, Miyamoto-san.",
+        "user_id" : 1,
+        "post_id" : 6
+    }
+
+]

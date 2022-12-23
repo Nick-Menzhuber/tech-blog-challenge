@@ -1,0 +1,32 @@
+[
+    {
+        "title" : "The M in MVC",
+        "text" : "It's a me, Mario! Oh no, wait, it's actually Model! The model manages data for the application.",
+        "user_id" : 1
+    },
+    {
+        "title" : "The V in MVC",
+        "text" : "V is for view, the aspect of the application which decides what the user will see on the screen. Essentially, this is the front end of the application.",
+        "user_id" : 2
+    },
+    {
+        "title" : "The C in MVC",
+        "text" : "Last is definitely not least! C is for controller, and it's the brains of the operation! Controllers get, set and update data to provide to the user.",
+        "user_id" : 3
+    },
+    {
+        "title" : "Hungry",
+        "text" : "Does anyone have a banana?",
+        "user_id" : 4
+    },
+    {
+        "title" : "I told you so",
+        "text" : "I said putting Donkey Kong in a coding class wouldn't work, but noooo",
+        "user_id" : 5
+    },
+    {
+        "title" : "I'm very confused",
+        "text" : "Why are all these characters on a tech blog? They belong in their games!",
+        "user_id" : 6
+    }
+]

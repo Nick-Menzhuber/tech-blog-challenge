@@ -11,6 +11,10 @@ Post.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    favs: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0
+    },
     title: {
       type: DataTypes.STRING,
       allowNull: false,
