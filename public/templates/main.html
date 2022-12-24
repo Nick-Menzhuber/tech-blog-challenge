@@ -5,37 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nick's Tech Blog</title>
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
   </head>
   <body>
     <div class="header">
       <div class="navbarbtns">
         <button type="button" class="nes-btn is-error is-small">Home</button>
-        <button type="button" class="nes-btn is-error is-small">Dashboard</button>
+        <button type="button" class="nes-btn is-error is-small">
+          Dashboard
+        </button>
         <button type="button" class="nes-btn is-error is-small">Logout</button>
       </div>
-      <button type="button" class="nes-btn is-primary homebutton is-small">Nick's Tech Blog</button>
+      <button type="button" class="nes-btn is-primary homebutton is-small">
+        Nick's Tech Blog
+      </button>
     </div>
-    <h1>Log In!</h1>
-    <div class="main">
-        <div class="column">
-            <form>
-                <div class="nes-field">
-                    <label for="name_field">Email Address</label>
-                    <input type="text" class="nes-input" id="email-login" placeholder="Enter Email Address">
-                </div>
-                <div class="nes-field">
-                    <label for="name-field">Password</label>
-                    <input type="text" class="nes-input" id="password-login" placeholder="Enter Password">
-                </div>
-                <button type="button" id="login-btn" class="nes-btn is-primary">Login</button>
-                <p>New User? Register</p>
-            </form>
+    <div class='login-card'>
+      <h1>Log In!</h1>
+      <div class='main'>
+        <div class='column'>
+          <form>
+            <div class='nes-field'>
+              <label for='name_field'>Email Address</label>
+              <input
+                type='text'
+                class='nes-input'
+                id='email-login'
+                placeholder='Enter Email Address'
+              />
+            </div>
+            <div class='nes-field'>
+              <label for='name-field'>Password</label>
+              <input
+                type='text'
+                class='nes-input'
+                id='password-login'
+                placeholder='Enter Password'
+              />
+            </div>
+            <button
+              type='button'
+              class='nes-btn is-primary login-btn'
+            >Login</button>
+            <p>New User?
+              <button type='button' class='nes-btn signin-reroute is-small'>
+                Register</button>
+            </p>
+          </form>
         </div>
+      </div>
     </div>
-    <script src="../js/login.js"></script>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Press+Start+2P">  
+    <script src='/js/login.js'></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P"
+    />
   </body>
 </html>

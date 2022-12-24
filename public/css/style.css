@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: #e5e5e5
 }
 
 .header {
@@ -21,4 +21,23 @@ body {
     margin-top: 30px;
     align-items: end;
     
+}
+
+.login-card, .register-card{
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.nes-field {
+    margin: 25px;
+}
+
+.signin-reroute {
+    margin-top: 50px;
+}
+
+#login-btn, #register-btn {
+    margin: 20px;
 }
