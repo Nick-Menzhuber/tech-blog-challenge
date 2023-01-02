@@ -15,18 +15,18 @@
         <div class='nes-field'>
           <label for='name-field'>Password</label>
           <input
-            type='text'
+            type='password'
             class='nes-input'
             id='password-login'
             placeholder='Enter Password'
           />
         </div>
         <button
-          type='button'
+          type='submit'
           class='nes-btn is-primary login-btn'
         >Login</button>
         <p>New User?
-          <button type='button' class='nes-btn signin-reroute is-small'>
+          <button onclick='window.location.href="/register"'type='button' class='nes-btn signin-reroute is-small'>
             Register</button>
         </p>
       </form>

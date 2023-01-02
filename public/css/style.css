@@ -23,7 +23,7 @@ body {
     
 }
 
-.login-card, .register-card{
+.login-card, .register-card {
     width: 50%;
     margin-left: 20%;
     margin-right: 20%;
@@ -40,4 +40,13 @@ body {
 
 #login-btn, #register-btn {
     margin: 20px;
+}
+
+.post {
+    margin: 30px;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-between;
 }

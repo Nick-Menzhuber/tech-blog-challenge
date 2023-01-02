@@ -7,15 +7,10 @@ router.get('/', async (req, res) => {
     // Get all posts and JOIN with user data
     const postData = await Post.findAll({
       include: [
-        // {
-        //   model: User,
-        //   attributes: ['name'],
-        // },
-        User, Comment
-        // {
-        //   model: Comment,
-        //   include: [User]
-        // }
+        {
+          model: User,
+          attributes: ['name'],
+        },
       ],
     });
 
@@ -84,6 +79,16 @@ router.get('/login', (req, res) => {
   }
 
   res.render('login');
+});
+
+router.get('/register', (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+  if (req.session.logged_in) {
+    res.redirect('/post');
+    return;
+  }
+
+  res.render('register');
 });
 
 module.exports = router;

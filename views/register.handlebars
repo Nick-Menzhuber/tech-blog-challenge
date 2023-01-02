@@ -5,27 +5,28 @@
       <form>
         <div class='nes-field'>
           <label for='name_field'>Username</label>
-          <input type='text' class='nes-input' placeholder='Enter Username' />
+          <input type='text' class='nes-input' id='username-signup' placeholder='Enter Username' />
         </div>
         <div class='nes-field'>
           <label for='name_field'>Email Address</label>
           <input
             type='text'
             class='nes-input'
+            id='email-signup'
             placeholder='Enter Email Address'
           />
         </div>
         <div class='nes-field'>
           <label for='name-field'>Password</label>
-          <input type='text' class='nes-input' placeholder='Enter Password' />
+          <input type='password' class='nes-input' id='password-signup' placeholder='Enter Password' />
         </div>
         <button
-          type='button'
+          type='submit'
           class='nes-btn is-primary'
           id='register-btn'
         >Register</button>
         <p>Existing User?
-          <button type='button' class='nes-btn signin-reroute is-small'>
+          <button onclick='window.location.href="/login"' type='button' class='nes-btn signin-reroute is-small'>
             Login</button>
         </p>
       </form>

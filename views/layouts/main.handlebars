@@ -14,15 +14,15 @@
   <body>
     <div class='header'>
       <div class='navbarbtns'>
-        <button type='button' class='nes-btn is-error is-small'>Home</button>
+        <button onclick='window.location.href="/"'type='button' class='nes-btn is-error is-small'>Home</button>
         <button
           type='button'
           class='nes-btn is-error is-small'
         >Dashboard</button>
         {{#if logged_in}}
-        <button type='button' class='nes-btn is-error logout-btn is-small'>Logout</button>
+        <button onclick='window.location.href="/logout"' type='button' class='nes-btn is-error logout-btn is-small'>Logout</button>
         {{else}}
-        <button type='button' class='nes-btn is-error login-btn is-small'>Login</button>
+        <button onclick='window.location.href="/login"' type='button' class='nes-btn is-error login-btn is-small'>Login</button>
         {{/if}}
       </div>
       <button
